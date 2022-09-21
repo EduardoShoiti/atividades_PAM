@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
 import styled from 'styled-components/native';
 import arma from './assets/img/arma.png';
 
@@ -47,26 +47,45 @@ const NomeArma = styled.View`
 
 const TitDescrArma = styled.Text`
 	color: #000000;
-	font-size: 11px;
+	font-size: 14px;
 	font-weight: bold;
 	padding-horizontal: 5%;
-	margin-bottom: 7%;
+	margin-bottom: 1%;
 `;
 
 const DescArma = styled.Text`
 	color: #4F4F4F;
-	font-size: 11px;
+	font-size: 14px;
 	padding-horizontal: 7%;
-	margin-top: 5%;
+	margin-top: 4%;
 	margin-left: 5%;
 `;
+
 const MarcadorDesc = styled.Text`
 	color: #000000;
 	font-size: 26px;
 	font-weight: bold;
-	margin-left: 2%;
+	margin-left: 4%;
 	position: relative;
-	top: 10%;
+	top: 12%;
+`;
+
+const BtnJogar = styled.TouchableOpacity`
+	background-color: #ff4655;
+	border-radius: 15px;
+
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+
+	width: 80%;
+	height: 10%;
+
+	text-align: center;
+	justify-content: center;
+	align-self: center;
+
+	margin-top: 10%;
 `;
 
 export default function App() {
@@ -84,7 +103,9 @@ export default function App() {
 					<DescArma> Seus projéteis de alto impacto provocam bastante recuo, então é preciso ter pulso firme. </DescArma>
 					<MarcadorDesc> - </MarcadorDesc>
 					<DescArma> Quando você domina esta arma, seus inimigos logo percebem que nunca tiveram chance. </DescArma>
+					<BtnJogar> JOGAR </BtnJogar>
 				</CaixaDescr>
+
 			</Container>
 		</SafeContainer>
 	);
