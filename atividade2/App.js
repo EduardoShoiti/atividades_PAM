@@ -79,12 +79,13 @@ export default function App() {
 
 				<CaixaDescr>
 					<NomeArma>SHERIFF</NomeArma>
-					<TitDescrArma>Sheriff é um revólver moderno feito para quem busca tiros certeiros na cabeça do inimigo.</TitDescrArma>
+					<TitDescrArma> Sheriff é um revólver moderno feito para quem busca tiros certeiros na cabeça do inimigo. </TitDescrArma>
 					<MarcadorDesc> - </MarcadorDesc>
 					<DescArma> Seus projéteis de alto impacto provocam bastante recuo, então é preciso ter pulso firme. </DescArma>
 					<MarcadorDesc> - </MarcadorDesc>
 					<DescArma> Quando você domina esta arma, seus inimigos logo percebem que nunca tiveram chance. </DescArma>
 				</CaixaDescr>
+
 			</Container>
 		</SafeContainer>
 	);
