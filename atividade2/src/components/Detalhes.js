@@ -65,24 +65,30 @@ const MarcadorDesc = styled.Text`
 const BtnJogar = styled.TouchableOpacity`
 	background-color: #ff4655;
 	border-radius: 15px;
+
 	color: #ffffff;
 	font-size: 24px;
 	font-weight: bold;
+
 	width: 80%;
 	height: 10%;
+
 	text-align: center;
 	justify-content: center;
 	align-self: center;
+
 	margin-top: 10%;
 `;
 
 export default function Detalhes(){
     return (		
+
 			<Container>				
 				<Titulo>VALORANT</Titulo>
 				<Imagem 
           source={{uri: 'https://github.com/EduardoShoiti/atividades_PAM/blob/master/atividade2/assets/img/arma.png?raw=true'}}
         />
+
 
 				<CaixaDescr>
 					<NomeArma>SHERIFF</NomeArma>

@@ -19,8 +19,7 @@ const ImgCard = styled.Image`
   width: 250px;
   height: 100px;
   resizeMode: contain;    
-  align-self: center;
-`;
+  align-self: center`;
 
 const NomeArma = styled.Text`
 	color: #000000;
@@ -43,9 +42,6 @@ const BtnDetalhes = styled.TouchableOpacity`
   align-self: center;
 `;
 
-
-
-
 const Teste = ({ nome, uri }) => (
 	<Card>
 		<ImgCard source={{ uri: uri }} />
@@ -63,4 +59,5 @@ export default function Armas() {
 		</SafeAreaView>
 	);
 }
+
 
